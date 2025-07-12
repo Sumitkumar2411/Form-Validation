@@ -45,5 +45,4 @@ Here’s what I explored:
 
 ---
 
-[![status](https://img.shields.io/badge/status-completed-brightgreen)](https://github.com/sumitnandan2411/Form-Validation)
 
