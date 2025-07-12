@@ -1,54 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form Validation</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-<form id="registration-form">
-    <h2>Registration Form</h2>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="registration-form">
+      <h2>Registration Form</h2>
 
+      <label for="name">Name:</label>
+      <input type="text" placeholder="Enter your Name" id="name" />
 
+      <label for="email">Email: </label>
+      <input type="text" placeholder="Enter your Mail" id="email" />
 
-<label for="name">Name:</label>
-    <input type="text" placeholder="Enter your Name" id="name">
+      <label for="contact">Contact: </label>
+      <input type="text" placeholder="Enter your Contact" id="contact" />
 
+      <label for="password">Password: </label>
+      <input type="password" placeholder="Enter your Password" id="password" />
 
-    <label for="email">Email: </label>
-    <input type="text" placeholder="Enter your Mail" id="email">
+      <label for="password">Confirm Password: </label>
+      <input
+        type="password"
+        placeholder="Enter your Confirm Password"
+        id="confirm-password"
+      />
 
-    <label for="contact">Contact: </label>
-    <input type="text" placeholder="Enter your Contact" id="contact">
+      <button type="submit">Register</button>
+      <p id="error"></p>
+    </form>
 
-    <label for="password">Password: </label>
-    <input type="password" placeholder="Enter your Password" id="password">
-
-
-    <label for="password">Confirm Password: </label>
-    <input type="password" placeholder="Enter your Confirm Password" id="confirm-password">
-
-<button type="submit">Register</button>
-<p id="error"></p>
-   
-
-</form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="script.js""></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
